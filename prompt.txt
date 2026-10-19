@@ -1,0 +1,5 @@
+“Actuando como programador, genera una página HTML y una hoja de estilos por separado,
+que muestren la tabla del 3.
+La página debe incluir un botón con el texto PROBAR en la parte superior.
+El diseño debe ser responsive.
+No usar JavaScript.”
