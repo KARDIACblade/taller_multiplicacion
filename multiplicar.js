@@ -1,5 +1,11 @@
 function generarTablas(){
     let contenedor = document.getElementById("contenedorTabla");
-    contenedor.innerHTML = "<h1>PROBANDO</h1>";
-
+    //contenedor.innerHTML = "<h1>PROBANDO</h1>";
+    let numero = 3;
+    let contenido = "";
+    
+    for (let i=1; i<=10; i++){
+        contenido = contenido + "<div class='fila'>" + numero + " x " + i + " = " + (numero*i) + "</div>";
+        }
+        contenedor.innerHTML = contenido;
 }
