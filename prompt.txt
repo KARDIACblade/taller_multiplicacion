@@ -3,3 +3,16 @@ que muestren la tabla del 3.
 La página debe incluir un botón con el texto PROBAR en la parte superior.
 El diseño debe ser responsive.
 No usar JavaScript.”
+
+///////////
+
+
+prompt2.text
+
+Actuando como diseñador web, mejora el diseño de esta página con un estilo tecnológico. Condiciones: 
+- Cambia colores, tipografías (Google Fonts) y agrega animaciones suaves. 
+- Mantén el diseño responsive. 
+- NO cambies la estructura: conserva el contenedor <div class="tabla"> y los ítems <div class="fila">, y conserva el botón PROBAR arriba. 
+- Agrega un pie de página que diga "Creado por: BLADE". 
+- No uses JavaScript. 
+- Devuélveme el HTML y el CSS completos, en bloques separados.
