@@ -16,3 +16,17 @@ Actuando como diseñador web, mejora el diseño de esta página con un estilo te
 - Agrega un pie de página que diga "Creado por: BLADE". 
 - No uses JavaScript. 
 - Devuélveme el HTML y el CSS completos, en bloques separados.
+
+///////////////
+
+prompt7.text
+
+Actuando como diseñador web, agrega una caja de texto para ingresar un número,
+junto al botón PROBAR, manteniendo el estilo tecnológico de mi página
+(colores neón cian y morado, fuentes Orbitron y Share Tech Mono).
+Condiciones:
+- Conserva el botón PROBAR con su onclick="generarTablas()".
+- Dale un id a la caja de texto.
+- Debe ser responsive.
+- No uses JavaScript.
+- Devuélveme solo el HTML y el CSS que cambian.

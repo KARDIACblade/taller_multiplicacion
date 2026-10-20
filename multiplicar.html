@@ -14,7 +14,13 @@
 </head>
 <body>
   <header>
-    <button class="btn-probar"  onclick="generarTablas()">PROBAR</button>
+    <div class="controles">
+      <!-- NUEVO: caja de texto -->
+      <input type="number" id="numeroUsuario" class="input-numero"
+             placeholder="Ej: 8" min="1">
+      <!-- SE MANTIENE: botón PROBAR -->
+      <button class="btn-probar" onclick="generarTablas()">PROBAR</button>
+      </div>
   </header>
 
   <main>
