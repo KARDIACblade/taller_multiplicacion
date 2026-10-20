@@ -162,6 +162,43 @@ footer strong {
   box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
 }
 
+/* ==========================================
+   [NUEVO] ESTILOS PARA EXPERIENCIA DE USUARIO (UX)
+   ========================================== */
+.panel-instrucciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.instruccion {
+  font-size: 1.05rem;
+  color: var(--texto);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.texto-ayuda {
+  font-size: 0.85rem;
+  color: #7c8aa5;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+/* Estilo para cuando ocurre un error de validación */
+.mensaje-error {
+  color: #ff4949;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 73, 73, 0.6);
+  padding: 16px;
+  background: rgba(255, 73, 73, 0.1);
+  border: 1px solid #ff4949;
+  border-radius: 6px;
+}
+
 @media (max-width: 480px) {
   h1 { font-size: 1.5rem; }
   .fila { font-size: 1.05rem; padding: 12px; }

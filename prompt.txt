@@ -19,7 +19,7 @@ Actuando como diseñador web, mejora el diseño de esta página con un estilo te
 
 ///////////////
 
-prompt7.text
+prompt3.text
 
 Actuando como diseñador web, agrega una caja de texto para ingresar un número,
 junto al botón PROBAR, manteniendo el estilo tecnológico de mi página
@@ -30,3 +30,19 @@ Condiciones:
 - Debe ser responsive.
 - No uses JavaScript.
 - Devuélveme solo el HTML y el CSS que cambian.
+
+
+///////////
+
+prompt4.
+
+Actuando como desarrollador frontend y experto en UX (Experiencia de Usuario), 
+mejora mi página web de tablas de multiplicar (multiplicar.html, multiplicar.css y multiplicar.js) 
+para cumplir con la PARTE 9 del taller, la cual exige:
+
+- Mejorar la interfaz agregando instrucciones claras, mensajes de ayuda y textos intuitivos para que cualquier persona pueda usarla sin explicación.
+- Mantener el diseño tecnológico actual (neón cian y morado, fuentes Orbitron y Share Tech Mono).
+- Validar correctamente el campo de texto con .trim() cuando esté vacío, mostrando un mensaje de error visual y cambiando el texto de ayuda inferior.
+- Agregar un atajo de teclado para que se pueda generar la tabla presionando la tecla "Enter" en la caja de texto.
+
+Devuélveme los tres códigos actualizados (HTML, CSS y JS) indicando claramente con comentarios los cambios realizados.

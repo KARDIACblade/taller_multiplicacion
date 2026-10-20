@@ -14,13 +14,18 @@
 </head>
 <body>
   <header>
+    <div class="panel-instrucciones">
+    <p class="instruccion">Ingresa un número para calcular su tabla:</p>
+
     <div class="controles">
       <!-- NUEVO: caja de texto -->
       <input type="number" id="numeroUsuario" class="input-numero"
-             placeholder="Ej: 8" min="1">
+             placeholder="Ej: 8" min="1" aria-label="Número para calcular tabla">
       <!-- SE MANTIENE: botón PROBAR -->
-      <button class="btn-probar" onclick="generarTablas()">PROBAR</button>
-      </div>
+      <button class="btn-probar" onclick="generarTablas()"> GENERAR TABLA</button>
+    </div>
+    <p class="texto-ayuda" id="mensajeAyuda">Presiona el botón o la tecla Enter para ver los resultados.</p>
+    </div>
   </header>
 
   <main>
